@@ -11,6 +11,22 @@ And then just: make
 
 Usage:
 
+
+put dumpdecrypted.dylib in /usr/lib
+
+then
+
+cd /usr/lib
+
+then
+
+execute the command
+
+DYLD_INSERT_LIBRARIES=dumpdecrypted.dylib /var/mobile/Applications/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/Scan.app/Scan
+mach-o decryption dumper
+
+
+
 iPod:~ root# DYLD_INSERT_LIBRARIES=dumpdecrypted.dylib /var/mobile/Applications/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/Scan.app/Scan
 mach-o decryption dumper
 
